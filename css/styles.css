@@ -16,6 +16,7 @@ header {
     display:block;
     width:150px;
     height:84px;
+    margin:0 0 20px;
 }
 #logo img {
     border:none;
@@ -29,7 +30,7 @@ header {
     display:inline-block;
 }
 header h1 {
-    margin: 0 auto;
+    margin: 0 auto 20px;
 }
 /* navigation section */
 nav {
@@ -46,17 +47,19 @@ nav {
     padding: 0 5px;
     margin:0;
 }
+#socials a,
+#socials a:visited,
 #nav a,
 #nav a:visited {
     color:#008b8b;
     text-decoration: none;
 }
+#socials a:hover,
 #nav a:hover {
     color:#fff;
 }
 /* main section */
 main {
-    width:100%;
     padding:10px;
 }
 
@@ -75,16 +78,22 @@ form {
     width:100%;
 }
 form fieldset {
-    border:1px solid #bebb86;
+    border:1px solid #ccc;
     margin:0 0 10px;
 }
 label {
     display:block;
+    margin:0 0 8px;
+}
+table{
+    width:300px;
+    margin:0 auto 20px;
 }
 /* footer section */
 footer {
     width:100%;
     padding:10px 0;
+    background: #bebb86;
 }
 footer .copyright {
     margin:0;
