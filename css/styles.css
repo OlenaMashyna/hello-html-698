@@ -7,16 +7,13 @@ body {
 }
 /* header section */
 header {
-    width:100%;
+    padding:10px;
     background: #bebb86;
     margin:0 0 20px;
     overflow:hidden;
 }
-header:after {
-    clear:both;
-}
 #logo {
-    float:left;
+    display:block;
     width:150px;
     height:84px;
 }
@@ -24,17 +21,12 @@ header:after {
     border:none;
 }
 #socials {
-    float:left;
     list-style: none;
     padding:0;
     margin:0;
-    width:284px;
-    overflow:hidden;
 }
 #socials li {
     display:inline-block;
-    width:142px;
-    height:142px;
 }
 header h1 {
     margin: 0 auto;
@@ -72,13 +64,23 @@ main section {
     width:80%;
     overflow:hidden;
     margin:0 0 20px;
-    border-bottom:2px solid #008b8b;
+    padding:0 0 30px;
+    border-bottom:1px dashed #008b8b;
 }
 main p {
     text-align: justify;
     margin:0 0 8px;
 }
-
+form {
+    width:100%;
+}
+form fieldset {
+    border:1px solid #bebb86;
+    margin:0 0 10px;
+}
+label {
+    display:block;
+}
 /* footer section */
 footer {
     width:100%;
@@ -87,5 +89,6 @@ footer {
 footer .copyright {
     margin:0;
     font:10px/13px Courier, monospace;
+    text-align: center;
 }
 
