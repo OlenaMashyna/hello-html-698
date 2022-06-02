@@ -11,8 +11,12 @@
 
 <body>
     <header>
-        <a href="#" class="logo"><img src="./images/logo.jpg" alt="logo"></a>
+        <a href="#" id="logo"><img src="./images/logo.jpg" alt="logo"></a>
         <h1>Main Title of page</h1>
+        <ul id="socials">
+            <li class="ig"><a href="www.instagram.com" alt="instagram">Our Instagram</a></li>
+            <li class="fb"><a href="www.facebook.com" alt="facebook">Our Facebook</a></li>
+        </ul>
     </header>
     <nav>
         <ul id="nav">
@@ -23,10 +27,69 @@
         </ul>
     </nav>
     <main>
-        
+        <section class="lists">
+            <ol>
+                <li>List item 1</li>
+                <li>List item 2</li>
+                <li>List item 3</li>
+                <li>List item 4</li>
+            </ol>
+            <article>
+                <h2>Smaller header</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe officiis quod, quam et voluptas delectus minima alias voluptatibus quae, numquam, laudantium odit nesciunt provident nobis consectetur eum fuga perferendis omnis!</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe officiis quod, quam et voluptas delectus minima alias voluptatibus quae.</p>
+            </article>
+        </section>
+        <section>
+            <form action="#">
+                <fieldset>
+                    <label>Name: <input type="text" name="uname" required placeholder="Enter your name"></label>
+                    <label>Age: <input type="number" name="uage" required placeholder="Age" min="18" max="99"></label>
+                    <label>Email: <input type="email" name="uemail" required placeholder="Enter your email"></label>
+                    <label>Password: <input type="password" name="psw" required placeholder="Enter your password"></label>
+                </fieldset>
+                <fieldset>
+                    <p>Gender:</p>
+                    <label><input type="radio" name="gender" value="male">Male</label>
+                    <label><input type="radio" name="gender" value="female" checked>Female</label>
+                </fieldset>
+                <fieldset>
+                    <p>Choose something:</p>
+                    <label><input type="checkbox" name="choose" value="one">111</label>
+                    <label><input type="checkbox" name="choose" value="two">222</label>
+                    <label><input type="checkbox" name="choose" value="three">3333</label>
+                </fieldset>
+                <button type="submit" value="Submit">Submit</button>
+            </form>
+        </section>
+        <section>
+            <table>
+                <tr>
+                    <th>column 1</th>
+                    <th>column 2</th>
+                    <th>column 3</th>
+                </tr>
+                <tr>
+                    <td>hrurhfdd</td>
+                    <td>aifgakfafa</td>
+                    <td>sgffdh</td>
+                </tr>
+                <tr>
+                    <td>dhytr</td>
+                    <td>fgfhf</td>
+                    <td>daaq</td>
+                </tr>
+                <tr>
+                    <td>ljll</td>
+                    <td>grrt</td>
+                    <td>jghjg</td>
+                </tr>
+            </table>
+        </section>
+
     </main>
     <footer>
-
+        <p class="copyright">&copy; copyright 2022</p>
     </footer>
 </body>
 
