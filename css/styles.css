@@ -1,7 +1,7 @@
 body {
     margin:0; 
     padding:0;
-    font: 12px/15px Helvetica, sans-serif;
+    font: 14px/17px Helvetica, sans-serif;
     color: #555;
     background-color:#bdb76b;
 }
@@ -10,6 +10,10 @@ header {
     width:100%;
     background: #bebb86;
     margin:0 0 20px;
+    overflow:hidden;
+}
+header:after {
+    clear:both;
 }
 #logo {
     float:left;
@@ -20,7 +24,7 @@ header {
     border:none;
 }
 #socials {
-    float:right;
+    float:left;
     list-style: none;
     padding:0;
     margin:0;
@@ -32,28 +36,47 @@ header {
     width:142px;
     height:142px;
 }
-#socials li a {
-    display:block;
-    width:142px;
-    height:142px;
-    text-indent: -9999px;
-    border:none;
-}
-#socials .ig a {
-    background: url(../images/icons.png) no-repeat -142px 0;
-}
-#socials .fb a {
-    background: url(../images/icons.png) no-repeat;
-}
 header h1 {
     margin: 0 auto;
 }
-
+/* navigation section */
+nav {
+    width:100%;
+    overflow:hidden;
+}
+#nav {
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+#nav li {
+    display: inline-block;
+    padding: 0 5px;
+    margin:0;
+}
+#nav a,
+#nav a:visited {
+    color:#008b8b;
+    text-decoration: none;
+}
+#nav a:hover {
+    color:#fff;
+}
 /* main section */
 main {
     width:100%;
     padding:10px;
-    
+}
+
+main section {
+    width:80%;
+    overflow:hidden;
+    margin:0 0 20px;
+    border-bottom:2px solid #008b8b;
+}
+main p {
+    text-align: justify;
+    margin:0 0 8px;
 }
 
 /* footer section */
